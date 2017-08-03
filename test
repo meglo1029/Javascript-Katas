@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Annual Wellness</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+  </head>
+  <body>
+  	<div class="topheadline">
+  		<div class="container">
+	  		<div class="title">
+				Annual Wellness Exam: Step <span ID="stepnum">1</span> of 9
+			</div>
+			<hr>
+		</div>
+  	</div>
+	<div class="headersection">
+		<div class="containerheader">
+			<div id="page1header">
+				<div class="entireheader">
+					<img src="images/headerstep1.png" class="step1" alt="Step Progress Bar">
+				</div>
+			</div>
+			<div id="page2header">
+				<div class="entireheader">
+					
+				</div>
+			</div>
+			<div id="page3header">
+				<div class="entireheader">
+					
+				</div>
+			</div>
+			<div id="page4header">
+				<div class="entireheader">
+					
+				</div>
+			</div>
+			<div id="page5header">
+				<div class="entireheader">
+					
+				</div>
+			</div>
+			<div id="page6header">
+				<div class="entireheader">
+					
+				</div>
+			</div>
+			<div id="page7header">
+				<div class="entireheader">
+					
+				</div>
+			</div>
+			<div id="page8header">
+				<div class="entireheader">
+					
+				</div>
+			</div>
+			<div id="page9header">
+				<div class="entireheader">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+<div id="content1">
+	<form action="" method="post" id="step1form">
+		<div class="formtext1">
+		<span class="Height">
+		HEIGHT<br>
+		</span>
+			<input type="text" placeholder="Height"><br>
+		<span class="weight">
+		WEIGHT<br>
+		</span>
+			<input type="text" placeholder="Weight"><br>
+		<span class="pulse"> 
+		PULSE<br>
+		</span>
+			<input type="text" placeholder="Pulse">
+		</div>
+	</form>
+	<form action="" method="post" id="step1form">
+		<div class="formtext2">
+			BLOOD PRESSURE<br>
+		<span class="dia">
+		DIASTOLIC<br>
+		</span>
+			<input type="text"><br>
+		<span class="syc">
+		SYSTOLIC<br>
+		</span>
+			<input type="text"><br>
+		</div>
+	</form>
+	<form action="" method="post" id="step1form">
+		<div class="formtext3">
+		<span class="bodymass">
+		BODY MASS INDEX (BMI)<br>
+		</span>
+			<input type="text" placeholder="BMI"><br>
+		<span class="temp">
+		TEMPERATURE<br>
+		</span>
+			<input type="text" placeholder="Temp"><br>
+		</div>
+	</form>
+</div>
+<div class="content" id="content2">
+	<div class="ethnic">
+		<form method="post">
+			<span class="ethnictext">Ethnic Background<br>
+			</span>
+			<div>
+		    <input type="checkbox" id="african" class="checkboxfont">
+		    	<label for="african">African or African American</label>
+	  		</div>
+	  		<div>
+		    <input type="checkbox" id="jewish" class="checkboxfont">
+		    	<label for="jewish">Ashkenazi Jewish</label>
+	  		</div>
+	  		<div>
+		    <input type="checkbox" id="asian" class="checkboxfont">
+		    	<label for="asian">Asian/Pacific Islander</label>
+	  		</div>
+	  		<div>
+		    <input type="checkbox" id="cajun" class="checkboxfont">
+		    	<label for="cajun">Cajun or French Canadian</label>
+	  		</div>
+	  		<div>
+		    <input type="checkbox" id="white" class="checkboxfont">
+		    	<label for="white">European Caucasion/White</label>
+	  		</div>
+	  		<div>
+		    <input type="checkbox" id="hispanic" class="checkboxfont">
+		    	<label for="hispanic">Hispanic</label>
+	  		</div>
+	  		<div>
+	  		<input type="checkbox" id="indian" class="checkboxfont">
+		    	<label for="indian">Indian</label>
+	  		</div>
+	  		<div>
+	  		<input type="checkbox" id="middle-eastern" class="checkboxfont">
+		    	<label for="middle-eastern">Middle Eastern</label>
+	  		</div>
+	  		<div>
+	  		<input type="checkbox" id="native-american" class="checkboxfont">
+		    	<label for="native-american">Native American</label>
+	  		</div>
+	  		<div>
+	  		<input type="checkbox" id="other" class="checkboxfont">
+		    	<label for="other">Other</label>
+	  		</div>
+	  	</form>
+	</div>
+	<div class="hereditary">
+		<span class="hereditarytext">
+		Hereditary Health Conditions<br>
+		</span>
+		<form method="post"> 
+			<div>
+	  		<input type="checkbox" id="autisum" class="checkboxfont">
+		    	<label for="autism">Autism</label>
+	  		</div>
+	  		<div>
+	  		<div>
+	  		<input type="checkbox" id="birth-defects" class="checkboxfont">
+		    	<label for="birth-defects">Birth Defects</label>
+	  		</div>
+	  		<input type="checkbox" id="blindness" class="checkboxfont">
+		    	<label for="blindness">Blindness</label>
+	  		</div>
+	  		<div>
+	  		<input type="checkbox" id="blood-clots" class="checkboxfont">
+		    	<label for="autism">Blood Clots</label>
+	  		</div>
+	  		<div>
+	  		<input type="checkbox" id="cancer" class="checkboxfont">
+		    	<label for="cancer">Cancer</label>
+	  		</div>
+	  		<div>
+	  		<input type="checkbox" id="cystic-fibrosis" class="checkboxfont">
+		    	<label for="cystic-fibrosis">Cystic Fibrosis</label>
+	  		</div>
+	  		<div>
+	  		<input type="checkbox" id="deafness" class="checkboxfont">
+		    	<label for="deafness">Deafness</label>
+	  		</div>
+	  		<div>
+	  		<input type="checkbox" id="diabetes" class="checkboxfont">
+		    	<label for="diabetes">Diabetes</label>
+	  		</div>
+	  		<div>
+	  		<input type="checkbox" id="heart-disease" class="checkboxfont">
+		    	<label for="heart-disease">Heart Disease</label>
+	  		</div>
+	  		<div>
+	  		<input type="checkbox" id="high-blood-pressure" class="checkboxfont">
+		    	<label for="high-blood-pressure">High Blood Pressure</label>
+	  		</div>
+	  		<div>
+	  		<input type="checkbox" id="other" class="checkboxfont">
+		    	<label for="other">Other</label>
+	  		</div>
+  		</form>
+	</div>
+		<div class="genetic">
+		<span class="genetictext">Have you or your immediate family<br> 
+		had any genetic testing?<br>
+		</span>
+		<form method="post">
+			<div>
+	  		<input type="radio" id="yes" name="choice" value="yes" class="checkboxfont">
+		    	<label for="yes">Yes (if yes, please explain)</label>
+	  		</div>
+	  		<div>
+	  		<input type="radio" id="no" value="no" name="choice" class="checkboxfont">
+		    	<label for="no">No</label>
+	  		</div>
+  		</form>
+  		<textarea id="textarea1" placeholder="Enter Text Here">
+  		</textarea>
+	</div>
+</div>
+
+<div class="content" id="content3">
+	
+</div>
+
+<div class="content" id="content4">
+	<div class="firstquestion">
+		<span class="firstquestiontext">
+			1) How have things been<br> 
+			going for you the last month?
+		</span>
+		<form method="post">
+			<div>
+		    <input type="checkbox" id="extremelywell" class="checkboxfont section4">
+		    	<label for="extremelywell">Extremely Well</label>
+	  		</div>
+	  		<div>
+		    <input type="checkbox" id="prettywell" class="checkboxfont section4">
+		    	<label for="prettywell">Pretty Well</label>
+	  		</div>
+	  		<div>
+		    <input type="checkbox" id="neutral" class="checkboxfont section4">
+		    	<label for="neutral">Neutral</label>
+	  		</div>
+	  		<div>
+		    <input type="checkbox" id="prettybad" class="checkboxfont section4">
+		    	<label for="prettybad">Pretty Bad</label>
+	  		</div>
+	  		<div>
+		    <input type="checkbox" id="extremelybad" class="checkboxfont section4">
+		    	<label for="extremelybad">Extremely Bad</label>
+	  		</div>
+	  	</form>
+	</div>
+	<div class="secondquestion">
+		<span class="secondquestiontext">
+			2) How would you rate your health<br> 
+			as a whole over the last month?
+		</span>
+		<form method="post">
+			<div>
+		    <input type="checkbox" id="excellent" class="checkboxfont section4">
+		    	<label for="excellent">Excellent</label>
+	  		</div>
+	  		<div>
+		    <input type="checkbox" id="verygood" class="checkboxfont section4">
+		    	<label for="verygood">Very Good</label>
+	  		</div>
+	  		<div>
+		    <input type="checkbox" id="good" class="checkboxfont section4">
+		    	<label for="good">Good</label>
+	  		</div>
+	  		<div>
+		    <input type="checkbox" id="fair" class="checkboxfont section4">
+		    	<label for="fair">Fair</label>
+	  		</div>
+	  		<div>
+		    <input type="checkbox" id="poor" class="checkboxfont section4">
+		    	<label for="poor">Poor</label>
+	  		</div>
+	  		<div>
+		    <input type="checkbox" id="verypoor" class="checkboxfont section4">
+		    	<label for="verypoor">Very Poor</label>
+	  		</div>
+	  	</form>
+	</div>
+	<div class="thirdquestion">
+		<span class="thirdquestiontext">
+			3) Do you feel like you are able to control<br>
+			and manage your health while at home?
+		</span>
+		<form method="post">
+			<div>
+		    <input type="checkbox" id="extremelywell" class="checkboxfont section4">
+		    	<label for="extremelywell">Extremely Well</label>
+	  		</div>
+	  		<div>
+		    <input type="checkbox" id="prettywell" class="checkboxfont section4">
+		    	<label for="prettywell">Pretty Well</label>
+	  		</div>
+	  		<div>
+		    <input type="checkbox" id="neutral" class="checkboxfont section4">
+		    	<label for="neutral">Neutral</label>
+	  		</div>
+	  		<div>
+		    <input type="checkbox" id="prettybad" class="checkboxfont section4">
+		    	<label for="prettybad">Pretty Bad</label>
+	  		</div>
+	  		<div>
+		    <input type="checkbox" id="extremelybad" class="checkboxfont section4">
+		    	<label for="extremelybad">Extremely Bad</label>
+	  		</div>
+	  	</form>
+	</div>
+	<div class="fourthquestion">
+		<span class="fourthquestiontext">
+			4) Have you had any bodily pain<br> 
+			over the last four weeks?
+		</span>
+		<form method="post">
+			<div>
+		    <input type="checkbox" id="nopain" class="checkboxfont">
+		    	<label for="nopain">No Pain</label>
+	  		</div>
+	  		<div>
+		    <input type="checkbox" id="mildpain" class="checkboxfont">
+		    	<label for="mildpain">Mild Pain</label>
+	  		</div>
+	  		<div>
+		    <input type="checkbox" id="moderatepain" class="checkboxfont">
+		    	<label for="moderatepain">Moderate Pain</label>
+	  		</div>
+	  		<div>
+		    <input type="checkbox" id="severepain" class="checkboxfont">
+		    	<label for="severepain">Severe Pain</label>
+	  		</div>
+	  	</form>
+	</div>
+</div>
+
+<div class ="content" id="content5">
+	<div class="firstquestion">
+		<span class="firstquestiontext">
+			1) How many days during the last<br> 
+			two weeks have you felt nervous, <br>
+			anxious, or on edge?
+		</span>
+		<form method="post">
+			<div>
+		    <input type="checkbox" id="notatall" class="checkboxfont">
+		    	<label for="notatall">Not at all</label>
+	  		</div>
+	  		<div>
+		    <input type="checkbox" id="severaldays" class="checkboxfont">
+		    	<label for="severaldays">Several Days</label>
+	  		</div>
+	  		<div>
+		    <input type="checkbox" id="moredays" class="checkboxfont">
+		    	<label for="moredays">More Days than Not</label>
+	  		</div>
+	  		<div>
+		    <input type="checkbox" id="everyday" class="checkboxfont">
+		    	<label for="everyday">Nearly Every Day</label>
+	  		</div>
+	  	</form>
+	</div>
+	<div class="secondquestion">
+		<span class="secondquestiontext">
+			2) How many days during the last<br> 
+			two weeks have you not been, <br>
+			able to stop or control worrying<br>
+			about things?
+		</span>
+		<form method="post">
+		<div>
+		    <input type="checkbox" id="notatall" class="checkboxfont">
+		    	<label for="notatall">Not at all</label>
+	  		</div>
+	  		<div>
+		    <input type="checkbox" id="severaldays" class="checkboxfont">
+		    	<label for="severaldays">Several Days</label>
+	  		</div>
+	  		<div>
+		    <input type="checkbox" id="moredays" class="checkboxfont">
+		    	<label for="moredays">More Days than Not</label>
+	  		</div>
+	  		<div>
+		    <input type="checkbox" id="everyday" class="checkboxfont">
+		    	<label for="everyday">Nearly Every Day</label>
+	  		</div>
+	  	</form>
+	</div>
+	<div class="thirdquestion">
+		<span class="thirdquestiontext">
+			3) How many days during the last<br> 
+			two weeks have you felt down, <br>
+			depressed, or hopeless?<br>
+		</span>
+		<form method="post">
+			<div>
+		    <input type="checkbox" id="notatall" class="checkboxfont">
+		    	<label for="notatall">Not at all</label>
+	  		</div>
+	  		<div>
+		    <input type="checkbox" id="severaldays" class="checkboxfont">
+		    	<label for="severaldays">Several Days</label>
+	  		</div>
+	  		<div>
+		    <input type="checkbox" id="moredays" class="checkboxfont">
+		    	<label for="moredays">More Days than Not</label>
+	  		</div>
+	  		<div>
+		    <input type="checkbox" id="everyday" class="checkboxfont">
+		    	<label for="everyday">Nearly Every Day</label>
+	  		</div>
+	  	</form>
+	</div>
+	<div class="fourthquestion">
+		<span class="fourthquestiontext">
+			4) How many days during the last<br> 
+			two weeks have you had little <br>
+			interest or pleasure in doing things?<br>
+		</span>
+		<form method="post">
+			<div>
+		    <input type="checkbox" id="notatall" class="checkboxfont">
+		    	<label for="notatall">Not at all</label>
+	  		</div>
+	  		<div>
+		    <input type="checkbox" id="severaldays" class="checkboxfont">
+		    	<label for="severaldays">Several Days</label>
+	  		</div>
+	  		<div>
+		    <input type="checkbox" id="moredays" class="checkboxfont">
+		    	<label for="moredays">More Days than Not</label>
+	  		</div>
+	  		<div>
+		    <input type="checkbox" id="everyday" class="checkboxfont">
+		    	<label for="everyday">Nearly Every Day</label>
+	  		</div>
+	  	</form>
+	</div>
+</div>
+
+<div class ="content" id="content6">
+	<span class="alcohol">
+		Alcohol<br>
+	</span>
+	<span class="alcoholsmaller">
+		For the following question, one drink is equal to one can of beer, a<br>
+		small glass of wine, or a single shot of distilled spirits. Keep in mind<br>
+		that one glass often will have more than one 'drink' in it.
+	</span>
+	<div class="alcoholdiv">
+		<div class="firstquestion">
+			<span class="firstquestiontext">
+				1) How often do you have 8 drinks<br> 
+				(if a man) or 6 drinks (if a woman) <br>
+				on a single occassion?<br>
+			</span>
+			<form method="post">
+				<div>
+			    <input type="checkbox" id="never" class="checkboxfont">
+			    	<label for="never">Never</label>
+		  		</div>
+		  		<div>
+			    <input type="checkbox" id="rarely" class="checkboxfont">
+			    	<label for="rarely">Rarely</label>
+		  		</div>
+		  		<div>
+			    <input type="checkbox" id="monthly" class="checkboxfont">
+			    	<label for="monthly">Monthly</label>
+		  		</div>
+		  		<div>
+			    <input type="checkbox" id="weekly" class="checkboxfont">
+			    	<label for="weekly">Weekly</label>
+		  		</div>
+		  		<div>
+			    <input type="checkbox" id="almostdaily" class="checkboxfont">
+			    	<label for="almostdaily">Almost Daily or Daily</label>
+		  		</div>
+		  	</form>
+	  	</div>
+	  	<div class="secondquestion">
+			<span class="secondquestiontext">
+				2) (if the answer was "a. Never" then skip
+				the following question)<br> 
+				How often in the last year have you not <br>
+				been able to remember what happened when<br>
+				drinking the night before?
+			</span>
+			<form method="post">
+				<div>
+			    <input type="checkbox" id="never" class="checkboxfont">
+			    	<label for="never">Never</label>
+		  		</div>
+		  		<div>
+			    <input type="checkbox" id="rarely" class="checkboxfont">
+			    	<label for="rarely">Rarely</label>
+		  		</div>
+		  		<div>
+			    <input type="checkbox" id="monthly" class="checkboxfont">
+			    	<label for="monthly">Monthly</label>
+		  		</div>
+		  		<div>
+			    <input type="checkbox" id="weekly" class="checkboxfont">
+			    	<label for="weekly">Weekly</label>
+		  		</div>
+		  		<div>
+			    <input type="checkbox" id="almostdaily" class="checkboxfont">
+			    	<label for="almostdaily">Almost Daily or Daily</label>
+		  		</div>
+		  	</form>
+	  	</div>
+	  	<div class="thirdquestion">
+			<span class="thirdquestiontext">
+				3) Has a relative/friend/doctor/health<br> 
+				worker been concerned about your<br>
+				drinking or advised you to cut down?<br>
+			</span>
+			<form method="post">
+				<div>
+			    <input type="checkbox" id="never" class="checkboxfont">
+			    	<label for="never">Never</label>
+		  		</div>
+		  		<div>
+			    <input type="checkbox" id="rarely" class="checkboxfont">
+			    	<label for="rarely">Rarely</label>
+		  		</div>
+		  		<div>
+			    <input type="checkbox" id="monthly" class="checkboxfont">
+			    	<label for="monthly">Monthly</label>
+		  		</div>
+		  		<div>
+			    <input type="checkbox" id="weekly" class="checkboxfont">
+			    	<label for="weekly">Weekly</label>
+		  		</div>
+		  		<div>
+			    <input type="checkbox" id="almostdaily" class="checkboxfont">
+			    	<label for="almostdaily">Almost Daily or Daily</label>
+		  		</div>
+		  	</form>
+	  	</div>
+	  	<div class="fourthquestion">
+			<span class="fourthquestiontext">
+				4) How often in the last year have you<br> 
+				failed to do what was expected<br>
+				of you because of drinking?<br>
+			</span>
+			<form method="post">
+				<div>
+			    <input type="checkbox" id="never" class="checkboxfont">
+			    	<label for="never">Never</label>
+		  		</div>
+		  		<div>
+			    <input type="checkbox" id="rarely" class="checkboxfont">
+			    	<label for="rarely">Rarely</label>
+		  		</div>
+		  		<div>
+			    <input type="checkbox" id="monthly" class="checkboxfont">
+			    	<label for="monthly">Monthly</label>
+		  		</div>
+		  		<div>
+			    <input type="checkbox" id="weekly" class="checkboxfont">
+			    	<label for="weekly">Weekly</label>
+		  		</div>
+		  		<div>
+			    <input type="checkbox" id="almostdaily" class="checkboxfont">
+			    	<label for="almostdaily">Almost Daily or Daily</label>
+		  		</div>
+		  	</form>
+	  	</div>
+	</div>
+	<span class="tobacco">Tobacco<br></span>
+	<div class="tobaccodiv">
+		<div class="firstquestion">
+			<span class="tobaccotext"> 1)Have you or your immediate family<br>
+			had any genetic testing?<br>
+			</span>
+			<form method="post">
+				<div>
+		  		<input type="radio" id="yes" name="choice" class="checkboxfont">
+			    	<label for="yes">Yes</label>
+		  		</div>
+		  		<div>
+		  		<input type="radio" id="no" name="choice" class="checkboxfont">
+			    	<label for="no">No</label>
+		  		</div>
+		  	</form>
+	  	</div>
+	  	<div class="secondquestion">
+	  		<span class="tobaccotext"> 2)if No: have you used tobacco
+	  		products in the past?<br> 
+			</span>
+			<form method="post">
+				<div>
+		  		<input type="radio" id="yes" name="choice" class="checkboxfont">
+			    	<label for="yes">Yes</label>
+		  		</div>
+		  		<div>
+		  		<input type="radio" id="no" name="choice" class="checkboxfont">
+			    	<label for="no">No</label>
+		  		</div>
+		  	</form>
+	  	</div>
+	  	<div class="thirdquestion">
+	  		<span class="tobaccotext">If Yes: How many years ago did you quit?<br> 
+			</span>
+			<form method="post">
+				<div>
+		  		<input type="checkbox" id="yearsago" class="checkboxfont">
+			    	<label for="yearsago">Less than one</label>
+		  		</div>
+		  		<div>
+		  		<input type="checkbox" id="twotothree" class="checkboxfont">
+			    	<label for="twotothree">Two to Three</label>
+		  		</div>
+		  		<div>
+		  		<input type="checkbox" id="fourtofive" class="checkboxfont">
+			    	<label for="fourtofive">Four to Five</label>
+		  		</div>
+		  		<div>
+		  		<input type="checkbox" id="morethan" class="checkboxfont">
+			    	<label for="morethan">More than Five</label>
+		  		</div>
+		  	</form>
+	  	</div>
+	  	<div class="fourthquestion">
+	  		<span class="tobaccotext"> If Yes: Prior to quitting, how long did you smoke?<br>
+			</span>
+			<form method="post">
+				<div>
+		  		<input type="text" id="yearssmoke" class="checkboxfont">
+		  		</div>
+		  	</form>
+	  	</div>
+	  	<div class="fifthquestion">
+	  		<span class="tobaccotext"> If Yes: on averange, how many packs<br> 
+	  		do you smoke a day (or smokeless tobacco equivalent)?<br>
+			</span>
+			<form method="post">
+				<div>
+		  		<input type="text" id="yearssmoke" class="checkboxfont">
+		  		</div>
+		  	</form>
+	  	</div>
+	</div>
+</div>
+<div class ="content" id="content7">
+	<div class="memorytext">
+		<span class="memory">Memory</span>
+	</div>
+	<div class="memorydiv">
+		<div class="firstquestion">
+			<span class="firstquestiontext">
+				1) I am going to speak three words to you.<br> 
+				Please do your best to remember each word,<br>
+				as I will be asking you for them back soon. <br>
+			</span>
+			<form method="post">
+				<div>
+			    <input type="text" id="never" class="">
+
+		  		</div>
+		  		<div>
+			    <input type="text" id="rarely" class="">
+
+		  		</div>
+		  		<div>
+			    <input type="text" id="monthly" class="">
+
+		  		</div>
+		  	</form>
+	  	</div>
+	  		<div class="secondquestion">
+				<span class="secondquestiontext">
+					2) What day of the week is it?<br> 
+				</span>
+			<form method="post">
+				<div>
+			    <input type="radio" id="correct" name="choice"class="checkboxfont">
+			    	<label for="correct">Patient answered correctly.</label>
+		  		</div>
+		  		<div>
+			    <input type="radio" id="incorrect" name="choice" class="checkboxfont">
+			    	<label for="incorrect">Patient answered incorrectly.</label>
+		  		</div>
+		  	</form>
+	  	</div>
+	  		<div class="thirdquestion">
+				<span class="thirdquestiontext">
+					3) What year is it?<br> 
+				</span>
+			<form method="post">
+				<div>
+			    <input type="radio" id="correct" name="choice" class="checkboxfont">
+			    	<label for="correct">Patient answered correctly.</label>
+		  		</div>
+		  		<div>
+			    <input type="radio" id="incorrect" name="choice" class="checkboxfont">
+			    	<label for="incorrect">Patient answered incorrectly.</label>
+		  		</div>
+		  	</form>
+	  	</div>
+	  		<div class="fourthquestion">
+				<span class="fourthquestiontext">
+					4) What were the three words I<br> 
+					asked you to remember?<br>
+				</span>
+			<form method="post">
+				<div>
+			    <input type="checkbox" id="correct" class="checkboxfont">
+			    	<label for="correct">All 3 correct</label>
+		  		</div>
+		  		<div>
+			    <input type="checkbox" id="2correct" class="checkboxfont">
+			    	<label for="2correct">2 Correct.</label>
+		  		</div>
+		  		<div>
+			    <input type="checkbox" id="1correct" class="checkboxfont">
+			    	<label for="1correct">1 Correct.</label>
+		  		</div>
+		  		<div>
+			    <input type="checkbox" id="nonecorrect" class="checkboxfont">
+			    	<label for="nonecorrect">None Correct.</label>
+		  		</div>
+		  	</form>
+	  	</div>
+	</div>
+	<div class="functionalability">
+		<span class="functionalabilitytext">
+			Functional Ability and Safety
+		</span>
+	</div>
+	<div class="functionalabilitydiv">
+		<div class="firstquestion">
+				<span class="firstquestiontext">
+					1) Do you normally wear a seatbelt<br>
+					in the car?<br> 
+				</span>
+			<form method="post">
+				<div>
+			    <input type="radio" id="yes" name="choice" class="checkboxfont">
+			    	<label for="yes">Yes.</label>
+		  		</div>
+		  		<div>
+			    <input type="radio" id="no" name="choice" class="checkboxfont">
+			    	<label for="no">No.</label>
+		  		</div>
+		  	</form>
+	  	</div>
+	  	<div class="secondquestion">
+				<span class="secondquestiontext">
+					1) Have you had a fall, or a near fall<br>
+					in the last year?<br> 
+				</span>
+			<form method="post">
+				<div>
+			    <input type="radio" id="yes" name="choice" class="checkboxfont">
+			    	<label for="yes">Yes.</label>
+		  		</div>
+		  		<div>
+			    <input type="radio" id="no" name="choice" class="checkboxfont">
+			    	<label for="no">No.</label>
+		  		</div>
+		  	</form>
+	  	</div>
+	  	<div class="thirdquestion">
+				<span class="thirdquestiontext">
+					1) Do you worry about falling, or<br>
+					feel unsteady when you are standing or walking?<br> 
+				</span>
+			<form method="post">
+				<div>
+			    <input type="radio" id="yes" name="choice" class="checkboxfont">
+			    	<label for="yes">Yes.</label>
+		  		</div>
+		  		<div>
+			    <input type="radio" id="no" name="choice" class="checkboxfont">
+			    	<label for="no">No.</label>
+		  		</div>
+		  	</form>
+	  	</div>
+	  	<div class="fourthquestion">
+				<span class="fourthquestiontext">
+					1) Do you need to push up with your<br>
+					hands to stand up from a chair?<br> 
+				</span>
+			<form method="post">
+				<div>
+			    <input type="radio" id="yes" name="choice" class="checkboxfont">
+			    	<label for="yes">Yes.</label>
+		  		</div>
+		  		<div>
+			    <input type="radio" id="no" name="choice" class="checkboxfont">
+			    	<label for="no">No.</label>
+		  		</div>
+		  	</form>
+	  	</div>
+	</div>
+</div>
+<div class="content" id="content8">
+	<div class="firstquestion">
+		<span class="firstquestiontext">
+			1) Do you understand what an Advance<br>
+			Directive, or Advanced Care Plan is, and what it is?
+		</span>
+		<form method="post">
+			<div>
+		    <input type="radio" id="yes" name="choice" class="checkboxfont">
+		    	<label for="yes">Yes.</label>
+	  		</div>
+	  		<div>
+		    <input type="radio" id="no" name="choice" class="checkboxfont">
+		    	<label for="no">No.</label>
+	  		</div>
+	  	</form>
+	</div>
+	<div class="secondquestion">
+		<span class="secondquestiontext">
+			2) Do you currently have an Advance<br>
+			Directive or other Advanced Care Plan?<br>
+		</span>
+		<form method="post">
+			<div>
+		    <input type="radio" id="yes" name="choice" class="checkboxfont">
+		    	<label for="yes">Yes.</label>
+	  		</div>
+	  		<div>
+		    <input type="radio" id="no" name="choice" class="checkboxfont">
+		    	<label for="no">No.</label>
+	  		</div>
+	  	</form>
+	</div>
+	<div class="thirdquestion">
+		<span class="thirdquestiontext">
+			3) Would yo ulike to discuss your Advanced<br>
+			Care Plan today?<br>
+		</span>
+		<form method="post">
+			<div>
+		    <input type="radio" id="yes" name="choice" class="checkboxfont">
+		    	<label for="yes">Yes.</label>
+	  		</div>
+	  		<div>
+		    <input type="radio" id="no" name="choice" class="checkboxfont">
+		    	<label for="no">No.</label>
+	  		</div>
+	  	</form>
+	</div>
+</div>
+<div class ="content" id="content9">
+	<div class="lastquestion">
+		<span class="lastquestiontext">
+			Is there anything we have not covered in this Wellness<br> 
+			Visit that you would like to talk about?<br>
+		</span>
+		<form>
+  		<textarea id="textarea1" placeholder="Enter Text Here">
+  		</textarea>
+  		</form>
+	</div>
+	<div class="lastquestion2">
+		<span class="lastquestiontext2">
+			MA/Provider Notes<br>
+		</span>
+		<form>
+  		<textarea id="textarea1" placeholder="Enter Text Here">
+  		</textarea>
+  		</form>
+	</div>
+</div>
+	</div>
+	<div class="buttonsection">
+		<div class="buttons">
+			<button id="back">&#8249; BACK</button>
+			<button id="continue">CONTINUE &#8250;</button>
+			<button id="submit">SUBMIT</button>
+		</div>
+		<div class="saveandcontinue">
+			<span class="saveandcontinuecontent">Save and continue later</span>
+		</div>
+	</div>
+	<script src="mainjs.js"></script>
+  </body>
+</html>
